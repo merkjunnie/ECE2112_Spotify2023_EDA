@@ -1,5 +1,5 @@
 # An Exploratory Data Analysis on Most Streamed Spotify Songs of 2023
-*Explore the world of music trends through Spotify's most-streamed tracks of 2023. This analysis dives into the data behind popular songs to understand patterns and characteristics of highly streamed music. From genre insights to trends over time, this project sheds light on what drives streams and who the top artists are.*
+*Hello Music lovers!! Explore the world of music trends through Spotify's most-streamed tracks of 2023. This analysis dives into the data behind popular songs to understand patterns and characteristics of highly streamed music. From genre insights to trends over time, this project sheds light on what drives streams and who the top artists are.*
 ***
 ## Overview
 This exploratory data analysis (EDA) investigates the attributes of Spotify's top songs in 2023. Using a comprehensive dataset from [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/data), we examine trends, track performance, and correlations between various musical characteristics and popularity. The project provides insights into the composition of top tracks and evaluates the influence of different platforms like Spotify and Apple on track popularity. This analysis highlights patterns in streaming data, genre-specific trends, and examines how factors like danceability, tempo, and energy impact track popularity.
@@ -24,7 +24,7 @@ The notebook contains the following:
    - Identification of which month sees the most releases and potential patterns in release timing.
 
 6. **Genre and Music Characteristics**
-   - Correlations between streams and musical attributes like `bpm`, `danceability`, and `energy`.
+   - Correlations between streams and musical attributes like `bpm`, `danceability_%`, and `energy_%`.
    - Analysis of relationships among attributes, such as `danceability_%` and `energy_%`.
 
 6. **Platform Popularity**
@@ -40,7 +40,7 @@ Each section provides a thorough exploration of these aspects, revealing interes
 To get started with this analysis, you’ll need to have the following Python libraries installed:
 - `pandas`
 - `numpy`
-- `matplotlib`
+- `matplotlib.pyplot`
 - `seaborn`
 
 Here is a step-by-step process on how to access the notebook:
@@ -65,27 +65,27 @@ In handling this kind of dataset, the analysis is broken down to key steps:
 6.	**Insights and Conclusions**: Highlighting significant observations from the analysis.
 
 ## Data Findings and Visualizations
-Here are some of the data visualizations obtained from the dataset:
-#### Density Distribution of Released Years
+Here are some of the data visualizations obtained from the dataset: <br><br>
+**Density Distribution of Released Years**
 ![Density Distribution of Released Year](https://i.pinimg.com/1200x/5b/ca/e0/5bcae0f599989bac9d6f8add9f4f5f82.jpg)
 
-#### Number of Released Tracks Per Year
+**Number of Released Tracks Per Year**
 ![Number of Released Tracks Per Year](https://i.pinimg.com/1200x/9b/57/1d/9b571ddb1b025fa694f3089183df5042.jpg)
 
-#### Number of Released Tracks Per Month
+**Number of Released Tracks Per Month**
 ![Number of Released Tracks Per Month](https://i.pinimg.com/1200x/fb/af/40/fbaf40787ccc0babfaf1937bfe410327.jpg)
 
-#### Streams vs. Key by Mode
+**Streams vs. Key by Mode**
 ![Streams vs. Key by Mode](https://i.pinimg.com/1200x/0d/f8/e6/0df8e60d3c4b554053253813c24ed5df.jpg)
 
-#### Top 10 Artists by Playlist/Chart Appearances
+**Top 10 Artists by Playlist/Chart Appearances**
 ![Top 10 Artists by Playlist/Chart Appearances](https://i.pinimg.com/1200x/f5/15/bd/f515bde761911717ecb6ed27c8b5c6ac.jpg)
 
 ## Challenges and Limitations
 As a Python starter or beginner, performing an exploratory data analysis on this huge dataset was not easy. Here are some of the challenges and limitations that I have encountered on the process that might help you avoid it.
 1. **Handling Large Datasets**: Working with large datasets required optimizing code to prevent memory issues and delays. Managing computational resources while keeping the analysis efficient posed a significant challenge.
 
-2. **Data Wrangling**: Preprocessing the data and handling missing or inconsistent values was complex. Merging and transforming data required detailed attention to ensure the analysis was accurate.
+2. **Data Wrangling**: Preprocessing the data and handling missing or inconsistent values was hard and too complex. Merging and transforming data required detailed attention to ensure the analysis was accurate.
 
 3. **Plotting**: Creating clear, informative plots that communicate insights effectively was tricky. Choosing the right types of visualizations and formatting them properly took a lot of trial and error.
 
@@ -101,9 +101,9 @@ As a Python starter or beginner, performing an exploratory data analysis on this
 As a Python beginner, here are some insights and recommendations that will help you handle this kind of dataset in the future:
 1. **Start Small**: Begin with smaller datasets to build your data manipulation skills before tackling larger ones. This helps in understanding the basics of data analysis without feeling overwhelmed.
 
-2. **Focus on Data Cleaning**: Spend adequate time on data cleaning and preprocessing, as it significantly impacts the accuracy of your analysis. A clean dataset will save you time in the long run and provide more reliable insights.
+2. **Focus on Data Cleaning**: Spend adequate time on data wrangling and preprocessing, as it significantly impacts the accuracy of your analysis. A clean dataset will save you time in the long run and provide more reliable insights.
 
-3. **Experiment with Visualizations**: Don’t hesitate to experiment with different types of visualizations to find the ones that best convey your data’s story. Visualization libraries like Matplotlib and Seaborn offer a range of options to enhance your findings.
+3. **Experiment with Visualizations**: Don’t hesitate to experiment with different types of visualizations to find the ones that best convey your data’s story. Visualization libraries like **Matplotlib** and **Seaborn** offer a range of options to enhance your findings.
 
 4. **Learn Debugging Techniques**: Take time to learn debugging techniques in Python to handle errors more efficiently. Familiarizing yourself with common debugging practices will streamline your workflow and improve your coding skills.
 
