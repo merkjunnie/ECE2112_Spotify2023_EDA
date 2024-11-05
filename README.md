@@ -82,11 +82,32 @@ Here are some of the data visualizations obtained from the dataset:
 ![Top 10 Artists by Playlist/Chart Appearances](https://i.pinimg.com/1200x/f5/15/bd/f515bde761911717ecb6ed27c8b5c6ac.jpg)
 
 ## Challenges and Limitations
-Dealing with this 
+As a Python starter or beginner, performing an exploratory data analysis on this huge dataset was not easy. Here are some of the challenges and limitations that I have encountered on the process that might help you avoid it.
+1. **Handling Large Datasets**: Working with large datasets required optimizing code to prevent memory issues and delays. Managing computational resources while keeping the analysis efficient posed a significant challenge.
 
-## Key Takeaways
+2. **Data Wrangling**: Preprocessing the data and handling missing or inconsistent values was complex. Merging and transforming data required detailed attention to ensure the analysis was accurate.
+
+3. **Plotting**: Creating clear, informative plots that communicate insights effectively was tricky. Choosing the right types of visualizations and formatting them properly took a lot of trial and error.
+
+4. **Feature Correlation Analysis**: Understanding which musical attributes correlated with the number of streams involved a deep dive into statistics. This step challenged my ability to draw meaningful conclusions from correlation matrices and scatter plots.
+
+5. **Debugging**: Debugging code and handling unexpected errors slowed down the workflow. This process was especially tough as I am still learning how to debug efficiently in Python.
+
+6. **Interpretation of Results**: Interpreting the output correctly and translating findings into actionable insights was challenging. Ensuring that each analysis step led to a logical conclusion was part of the learning curve.
+
+7. **Time Management**: Balancing the time spent on each analysis step was tough, as some tasks took longer than anticipated. Prioritizing tasks and setting reasonable deadlines was necessary to complete the project on time.
 
 ## Insights and Recommendations
+As a Python beginner, here are some insights and recommendations that will help you handle this kind of dataset in the future:
+1. **Start Small**: Begin with smaller datasets to build your data manipulation skills before tackling larger ones. This helps in understanding the basics of data analysis without feeling overwhelmed.
+
+2. **Focus on Data Cleaning**: Spend adequate time on data cleaning and preprocessing, as it significantly impacts the accuracy of your analysis. A clean dataset will save you time in the long run and provide more reliable insights.
+
+3. **Experiment with Visualizations**: Don’t hesitate to experiment with different types of visualizations to find the ones that best convey your data’s story. Visualization libraries like Matplotlib and Seaborn offer a range of options to enhance your findings.
+
+4. **Learn Debugging Techniques**: Take time to learn debugging techniques in Python to handle errors more efficiently. Familiarizing yourself with common debugging practices will streamline your workflow and improve your coding skills.
+
+5. **Document Your Process**: Keep detailed notes of your analysis steps and findings. This practice not only aids in keeping track of your progress but also helps in communicating your results to others effectively.
 
 ## Contact Information
 For any questions or feedback, please reach out to:<br>
@@ -94,3 +115,8 @@ For any questions or feedback, please reach out to:<br>
 - GitHub: https://github.com/merkjunnie
 
 ## Relative External Links
+Check out my previous works on Python!
+- Introduction to Python: https://github.com/merkjunnie/ECE2112_Exp-1)
+- Programming with Numerical Python (NumPy): https://github.com/merkjunnie/ECE2112_Exp-2)
+- Hello PANDAS!: https://github.com/merkjunnie/ECE2112_Exp-3)
+- Data Wrangling and Data Visualization: https://github.com/merkjunnie/ECE2112_Exp-4)
