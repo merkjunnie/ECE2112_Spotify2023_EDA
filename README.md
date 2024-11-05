@@ -118,7 +118,7 @@ For any questions or feedback, please reach out to:<br>
 
 ## Relative External Links
 Check out my previous works on Python!
-- Introduction to Python: https://github.com/merkjunnie/ECE2112_Exp-1)
-- Programming with Numerical Python (NumPy): https://github.com/merkjunnie/ECE2112_Exp-2)
-- Hello PANDAS!: https://github.com/merkjunnie/ECE2112_Exp-3)
-- Data Wrangling and Data Visualization: https://github.com/merkjunnie/ECE2112_Exp-4)
+- Introduction to Python: https://github.com/merkjunnie/ECE2112_Exp-1
+- Programming with Numerical Python (NumPy): https://github.com/merkjunnie/ECE2112_Exp-2
+- Hello PANDAS!: https://github.com/merkjunnie/ECE2112_Exp-3
+- Data Wrangling and Data Visualization: https://github.com/merkjunnie/ECE2112_Exp-4
