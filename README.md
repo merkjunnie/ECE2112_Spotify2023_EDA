@@ -53,7 +53,7 @@ jupyter notebook
 5. Download `MSSS2023_EDA.ipynb` within the same file directory as `spotify-2023.csv`.
 6. Open the notebook then execute the codes
 
-## The *"spotify-2023"* Dataset
+## The *spotify-2023* Dataset
 This dataset contains a detailed list of the most popular songs of 2023 on Spotify. It includes extensive features that provide insights into each song’s attributes, popularity, and presence across multiple music platforms. Key information includes **track name, artist(s), release date, and streaming statistics, along with presence on Spotify, Apple Music, Deezer, and Shazam charts**. 
 
 Additionally, the dataset offers various audio features such as **BPM, key, mode, danceability, valence, energy, acousticness, instrumentalness, liveness, and speechiness**. This comprehensive dataset is valuable for analyzing trends and patterns in music popularity and characteristics.
