@@ -54,31 +54,33 @@ jupyter notebook
 6. Open the notebook then execute the codes
 
 ## The "spotify-2023" Dataset
-This dataset contains a detailed list of the most popular songs of 2023 on Spotify. It includes extensive features that provide insights into each song’s attributes, popularity, and presence across multiple music platforms. Key information includes **track name, artist(s), release date, and streaming statistics, along with presence on Spotify, Apple Music, Deezer, and Shazam charts**. Additionally, the dataset offers various audio features such as **BPM, key, mode, danceability, valence, energy, acousticness, instrumentalness, liveness, and speechiness**. This comprehensive dataset is valuable for analyzing trends and patterns in music popularity and characteristics.
+This dataset contains a detailed list of the most popular songs of 2023 on Spotify. It includes extensive features that provide insights into each song’s attributes, popularity, and presence across multiple music platforms. Key information includes **track name, artist(s), release date, and streaming statistics, along with presence on Spotify, Apple Music, Deezer, and Shazam charts**. 
+
+Additionally, the dataset offers various audio features such as **BPM, key, mode, danceability, valence, energy, acousticness, instrumentalness, liveness, and speechiness**. This comprehensive dataset is valuable for analyzing trends and patterns in music popularity and characteristics.
 
 In handling this kind of dataset, the analysis is broken down to key steps:
 1.	**Data Preparation**: Importing essential libraries and reading the dataset.
+
 2.	**Initial Data Exploration**: Viewing the structure and characteristics of the data.
+
 3.	**Data Cleaning**: Handling missing values and ensuring data consistency.
+   
 4.	**Descriptive Statistics**: Summarizing the data using basic statistical methods.
+   
 5.	**Visualization**: Creating plots to visually represent patterns and trends.
+    
 6.	**Insights and Conclusions**: Highlighting significant observations from the analysis.
 
 ## Data Findings and Visualizations
-Here are some of the data visualizations obtained from the dataset: <br><br>
-**Density Distribution of Released Years**
+As a sneak peek, here are some of the data visualizations obtained from the dataset: <br><br>
 ![Density Distribution of Released Year](https://i.pinimg.com/1200x/5b/ca/e0/5bcae0f599989bac9d6f8add9f4f5f82.jpg)
 
-**Number of Released Tracks Per Year**
 ![Number of Released Tracks Per Year](https://i.pinimg.com/1200x/9b/57/1d/9b571ddb1b025fa694f3089183df5042.jpg)
 
-**Number of Released Tracks Per Month**
 ![Number of Released Tracks Per Month](https://i.pinimg.com/1200x/fb/af/40/fbaf40787ccc0babfaf1937bfe410327.jpg)
 
-**Streams vs. Key by Mode**
 ![Streams vs. Key by Mode](https://i.pinimg.com/1200x/0d/f8/e6/0df8e60d3c4b554053253813c24ed5df.jpg)
 
-**Top 10 Artists by Playlist/Chart Appearances**
 ![Top 10 Artists by Playlist/Chart Appearances](https://i.pinimg.com/1200x/f5/15/bd/f515bde761911717ecb6ed27c8b5c6ac.jpg)
 
 ## Challenges and Limitations
